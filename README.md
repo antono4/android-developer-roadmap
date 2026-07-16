@@ -1,5 +1,8 @@
 # Android Developer Roadmap 2020
 
+> **Created by Antono**
+
+
 ![GitHub contributors](https://img.shields.io/github/contributors/anacoimbrag/android-developer-roadmap.svg?style=flat-square)
 
 **Para a versão em português, [clique aqui](./README_PT_BR.md)**
