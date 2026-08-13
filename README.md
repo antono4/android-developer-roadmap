@@ -1,63 +1,66 @@
-# Android Developer Roadmap 2020
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">Project 👋</h1>
 
+<p align="center">
+  <strong></strong>
+</p>
 
-![GitHub contributors](https://img.shields.io/github/contributors/anacoimbrag/android-developer-roadmap.svg?style=flat-square)
+<p align="center">
+  <a href="https://github.com/antono4/android-developer-roadmap"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/android-developer-roadmap-blue?logo=github"></a>
+  <a href="https://antono4.github.io/android-developer-roadmap/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-18-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 13:10:21 WIB-lightgrey">
+</p>
 
-**Para a versão em português, [clique aqui](./README_PT_BR.md)**
+---
 
-**Para la versión en español, [clic auquí](./README_ES.md)**
+## 📖 Tentang
 
-**Voor de nederlandse versie, [klik hier](./README_NL.md)**
+Repository **`android-developer-roadmap`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/android-developer-roadmap/`](https://antono4.github.io/android-developer-roadmap/).
 
-Based on the [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap) that helps web developers with a path of what to learn on this extensive area, we developed the Android Developer Roadmap with the same goal.
+## 🗂️ Struktur Proyek
 
-We hope that with this roadmap new developers will find it easier to start building beautiful Android applications.
+```
+android-developer-roadmap/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+```
 
-## How to read
+## 🛠️ Teknologi
 
-This content is a suggested learning path to help guide your Android studies. To use this content, have in mind that the roadmap has macro boxes, that are in the middle (following the line path), and from them we have micro boxes, that are more refined content about the topic of the parent box.
+Berdasarkan isi repository, proyek ini menggunakan:
 
-So, in this way, we suggest you read from the macro to the micro boxes, from the top to bottom direction. This is how we think a roadmap should flow, in terms of needs and difficulties.
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-In addition, it is good to know that you don't need to know everything in the image bellow to be a good Android developer. You can follow your needs (in your studies, projects, etc) and it will be ok!
+> Total **18 file** terdeteksi di repository.
 
-Remember that this is a collaborative content, so, if something is missing or incomplete, please think about how to improve it for the community.
+## 🚀 Menjalankan Secara Lokal
 
-## Android Roadmap
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
-![Android Roadmap](./images/android_roadmap.png)
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
 
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
 
+## 📬 Kontak
 
-## Android app
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/android-developer-roadmap/](https://antono4.github.io/android-developer-roadmap/)
 
-To help you keep track of your progress [@Fren1100](https://github.com/Fren1100) created an Android app with all the subjects. You can download the app [here](https://play.google.com/store/apps/details?id=com.fren.androiddeveloperroadmap). 
+## 📄 Lisensi
 
-## Acknowledgments
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
-We want to thank the Android dev community all over the world that helped us with some great insights, especially [Android Dev BR](https://github.com/androiddevbr). Without you this project wouldn't be as complete as it is.
+---
 
-## Contribute
-
-If you think anything is missing or should not be there, or should be different, please open a pull request with your ideas.
-
-[Here](./docs/contributing.md) you can find how to contribute to the roadmap.
-
-## Authors
-
-[1.1]: http://i.imgur.com/wWzX9uB.png "follow me on twitter"
-[2.1]: http://i.imgur.com/9I6NRUm.png "follow me on github"
-
-[1]: https://twitter.com/anacoimbrag
-[2]: https://github.com/anacoimbrag
-[3]: https://twitter.com/DrCabrales
-[4]: https://github.com/drcabral/
-
-- Ana Coimbra [![alt text][1.1]][1][![alt text][2.1]][2]
-- Diogo Cabral [![alt text][1.1]][3][![alt text][2.1]][4]
-
-## License
-
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+<sub>README ini di-generate otomatis pada **2026-08-13 13:10:21 WIB** oleh GitHub Actions .</sub>
